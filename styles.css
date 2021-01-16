@@ -1,0 +1,54 @@
+.blueHover a:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.redActivate a:active {
+    color: red;
+    font-style: italic;
+}
+
+.yellowVisited a:visited {
+    color: yellow;
+}
+
+.focusBox input:focus {
+    color: green;
+    font-size: 30px;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    
+
+}
+
+nav li {
+    padding: 5px 20px 5px 20px;
+    margin-right:20px;
+    color: white;
+}
+
+nav li.currentPage {
+    background-color: grey;
+}
+
+/* nav li:first-child {
+    /* margin-left: 0px; */
+/* }  */
+
+nav li:hover {
+    background-color: lightblue;
+}
+/* .searchBox input  {
+    border: 2px solid red;
+} */
+.searchBox input:focus {
+    border: 2px dashed aqua;
+    
